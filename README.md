@@ -64,7 +64,11 @@ Ambiente web simulado contendo serviços web, FTP, SSH e banco de dados em hosts
 	![arquivos ftp](imgs/ftp_arquivos.png)
 	![conteúdo das pastas do servidor ftp](imgs/ftp_pastas.png)
 *  **Arquivos achados no servidor ftp:**
-	![users.conf.md](./arquivos/users.conf.md)	![welcome.md](./arquivos/welcome.md)![readme](./arquivos/readme.md)![passwords](./arquivos/passwords.md)
+	![users.conf.md](./arquivos/users.conf.md)  
+	![welcome.md](./arquivos/welcome.md) 
+	![readme](./arquivos/readme.md)
+	 
+	![passwords](./arquivos/passwords.md)
 ### Acesso SSH e Banco de Dados 
 
 - **Acesso SSH obtido:** sessão interativa permitiu navegação no sistema e acesso a arquivos locais, acesso ao banco de dados e inserção de usuário superadmin no painel do site.
@@ -89,7 +93,9 @@ Ambiente web simulado contendo serviços web, FTP, SSH e banco de dados em hosts
 ![após inserir conta](imgs/inserindo_conta.png)
 ![logado como superadmin](imgs/superadmin.png)
 ![tables sensitive e secret](imgs/sensitive_secret.png)
-![conteúdo do home do ssh](./arquivos/home_ssh_content.md)
+
+- **Arquivos relevantes encontrados no servidor ssh:**
+	![conteúdo do home do ssh](./arquivos/home_ssh_content.md)
 ### Serviços e Hosts identificados via Nmap
 
 - **Resumo da varredura Nmap:** 6 hosts ativos identificados na rede de laboratório
