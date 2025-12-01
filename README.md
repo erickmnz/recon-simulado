@@ -23,8 +23,6 @@ Ambiente web simulado contendo serviços web, FTP, SSH e banco de dados em hosts
 - **Horários relevantes:** varredura iniciada às **20:00**; conexão FTP às **20:17**; acesso SSH às **20:32**
     
 
-## Diagrama de Rede
-
 ## Achados Detalhados
 
 ### robots.txt e descoberta inicial
