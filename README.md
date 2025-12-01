@@ -66,9 +66,11 @@ Ambiente web simulado contendo serviços web, FTP, SSH e banco de dados em hosts
 *  **Arquivos achados no servidor ftp:**  
 	
 	
-	![welcome.md](./arquivos/welcome.md) 
+	![welcome](./arquivos/welcome.md) 
  
+	
 	![readme](./arquivos/readme.md)
+	 
 	 ![passwords](./arquivos/passwords.md)
 ### Acesso SSH e Banco de Dados 
 
@@ -96,7 +98,9 @@ Ambiente web simulado contendo serviços web, FTP, SSH e banco de dados em hosts
 ![tables sensitive e secret](imgs/sensitive_secret.png)
 
 - **Arquivos relevantes encontrados no servidor ssh:**
+
 	![conteúdo do home do ssh](./arquivos/home_ssh_content.md)
+
 ### Serviços e Hosts identificados via Nmap
 
 - **Resumo da varredura Nmap:** 6 hosts ativos identificados na rede de laboratório
