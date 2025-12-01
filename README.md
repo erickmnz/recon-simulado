@@ -162,15 +162,15 @@ O serviço web simulado apresenta exposições críticas e práticas inseguras d
 
 ### Hosts por função
 
-| IP          | Função estimada        | Evidência                                    |
-| ----------- | ---------------------- | -------------------------------------------- |
-| 172.20.0.1  | Gateway/container host |                                              |
-| 172.20.0.2  | Database               | Nome `techcorp_database` detectado           |
-| 172.20.0.3  | phpMyAdmin             | Nome `techcorp_phpmyadmin` detectado         |
-| 172.20.0.10 | Web app                | Nome `techcorp_web` detectado                |
-| 172.20.0.20 | FTP                    | Nome `techcorp_ftp` detectado; FTP acessível |
-| 172.20.0.30 | Host adicional         | Container visível na rede                    |
-
+| IP          | Função estimada        | Evidência                                                          |
+| ----------- | ---------------------- | ------------------------------------------------------------------ |
+| 172.20.0.1  | Gateway/container host | Nome `ec2.internal` detectado                                      |
+| 172.20.0.2  | Database               | Nome `techcorp_database` detectado; Banco de dados acessível       |
+| 172.20.0.3  | phpMyAdmin             | Nome `techcorp_phpmyadmin` detectado; Acessível através do browser |
+| 172.20.0.10 | Web app                | Nome `techcorp_web` detectado                                      |
+| 172.20.0.20 | FTP                    | Nome `techcorp_ftp` detectado; FTP acessível                       |
+| 172.20.0.30 | Host adicional         | Servidor SSH que loguei                                            |
+![Reconhecimento interno](imgs/reconhecimento_interno.png)
 ## Observações Finais de Risco
 
 - **Alta prioridade:** rotacionar segredos, proteger backups, criptografar senhas e banco de dados.
