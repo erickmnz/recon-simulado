@@ -1,7 +1,7 @@
 **Autor:** Erick Menezes
 **Data:** 30/11/2025 
 **Versão:** 1.0 
-**Repositório:** https://www.github.com/suco/recon-simulado
+**Repositório:** https://www.github.com/erickmnz/recon-simulado
 ## Sumário Executivo
 
 Foi realizada uma avaliação de segurança em um serviço web simulado hospedado em ambiente de laboratório. Durante o exercício foram identificadas múltiplas exposições e más configurações que permitem descoberta de arquivos sensíveis, acesso a FTP público, enumeração de serviços via Nmap, acesso SSH e extração de segredos armazenados em banco de dados. Foram encontradas evidências em `robots.txt`, diretórios de backup e arquivos de configuração que indicam risco de divulgação de dados e credenciais. Recomenda-se correções imediatas em autenticação, controle de acesso e isolamento de serviços.
